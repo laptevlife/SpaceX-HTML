@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Teko', sans-serif;
+}
+
+
+body {
+    background-color: #151418;
+    width: 100%;
+    position: relative;
+    min-width: 320px;
+
+
+}
+
+img.image__headline__mobil {
+    display: none;
+}
+
+
+
+.container {
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    position: relative;
+    padding-top: 137px;
+    min-width: 300px;
+
+    .headline {
+        // height: 400px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        margin-bottom: 155px;
+        z-index: 1;
+
+        .logo {
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: #17A1CC;
+            font-weight: 300;
+            font-size: 180px;
+            line-height: 90%;
+
+            span {
+                color: #fff;
+            }
+        }
+    }
+
+    img.image__headline {
+        position: absolute;
+        top: 0;
+        z-index: -1;
+        right: 0;
+        object-fit: contain;
+    }
+
+
+
+    .card__container {
+        width: 100%;
+        margin-bottom: 137px;
+
+        .card {
+            width: 1160px;
+            height: auto;
+            background: rgba(34, 36, 43, 0.8);
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            position: relative;
+            margin-bottom: 20px;
+
+            .card__logo {
+                width: 230px;
+                height: 100%;
+
+                img {
+                    width: 180px;
+                    height: 180px;
+                    margin-left: 50px;
+                    margin-top: 50px;
+                }
+
+            }
+
+            .card__content {
+                width: calc(100% - 230px);
+                padding: 60px;
+                padding-right: 70px;
+
+                h5 {
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 24px;
+                    letter-spacing: 7px;
+                    line-height: 100%;
+                    color: #17A1CC;
+                }
+
+                h2 {
+                    margin-top: 16px;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 72px;
+                    line-height: 100%;
+                    color: #FFFFFF;
+                }
+
+                p {
+                    margin-top: 40px;
+                    font-family: Ubuntu;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 140%;
+                    color: #FFFFFF
+                }
+
+                .data {
+                    margin-top: 44px;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-box-align: center;
+                    -ms-flex-align: center;
+                    align-items: center;
+
+                    .item {
+                        margin-right: 30px;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: flex;
+                        -webkit-box-pack: justify;
+                        -ms-flex-pack: justify;
+                        justify-content: space-between;
+                        -webkit-box-align: center;
+                        -ms-flex-align: center;
+                        align-items: center;
+
+                        div.content {
+                            margin-left: 10px;
+                            font-family: Teko;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 24px;
+                            line-height: 100%;
+                            letter-spacing: 2px;
+                            color: #FFFF;
+                        }
+                    }
+                }
+
+            }
+
+        }
+
+    }
+}
