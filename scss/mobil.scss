@@ -12,6 +12,17 @@
 @media all and (max-width: 992px) {
     .container {
         width: 750px;
+        .headline {
+            margin-bottom: 70px;
+            .logo {
+                svg {
+                    width: 242px;
+                }
+            }
+            h1 {
+                font-size: 126px;
+            }
+        }
         .card__container {
             .card {
                 .card__logo {
@@ -20,6 +31,9 @@
 
                 .card__content {
                     width: 100%;
+                    h2{
+                        width: 100%;
+                    }
                 }
             }
         }
@@ -33,41 +47,40 @@
                 font-size: 120px;
             }
         }
-
+        img.image__headline {
+            width: 100%;
+        }
     }
 }
 
 @media all and (max-width: 768px) {
+    img.image__headline__mobil {
+        position: absolute;
+        display: block;
+        top: 0;
+        z-index: -1;
+        margin-left: -5%;
+        width: 105%;
+        height: 1127px;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
     .container {
-
         width: 620px;
-
         .headline {
-            margin-bottom: 70px;
-
-            .logo {
-                svg {
-                    width: 242px;
-                }
-            }
-
-            h1 {
-                font-size: 126px;
-            }
+            // margin-bottom: 70px;
         }
-
         img.image__headline {
-            width: 100%;
-        }
-   
+            display: none;
+        }   
     }
 }
 
 @media all and (max-width: 650px) {
+
     .container {
         padding-top: 70px;
         width: 530px;
-
         .card__container {
             .card {
                 .card__content {
@@ -88,7 +101,6 @@
                 }
             }
         }
-
     }
 }
 @media all and (max-width: 650px) and (orientation: landscape) {
@@ -99,32 +111,18 @@
                 font-size: 120px;
             }
         }
-
     }
 }
 
 
 @media all and (max-width: 550px) {
-    img.image__headline__mobil {
-        position: absolute;
-        display: block;
-        top: 0;
-        z-index: -1;
-        // right: 0;
-        margin-left: -10%;
-        width: 110%;
-        height: 1127px;
-        -o-object-fit: cover;
-        object-fit: cover;
-    }
 
-    .container {
-       
+    img.image__headline__mobil {      
+        margin-left: -10%;
+        width: 110%;  
+    }
+    .container {       
         width: 85%;
-        img.image__headline {
-            width: 100vw;
-            display: none;
-        }
     }
 }
 

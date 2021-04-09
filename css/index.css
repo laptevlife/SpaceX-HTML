@@ -88,6 +88,7 @@ img.image__headline__mobil {
           line-height: 100%;
           color: #17A1CC; }
         .container .card__container .card .card__content h2 {
+          width: 70%;
           margin-top: 16px;
           font-style: normal;
           font-weight: normal;

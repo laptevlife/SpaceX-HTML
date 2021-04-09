@@ -13,15 +13,11 @@ body {
     width: 100%;
     position: relative;
     min-width: 320px;
-
-
 }
 
 img.image__headline__mobil {
     display: none;
 }
-
-
 
 .container {
     width: 1200px;
@@ -32,7 +28,6 @@ img.image__headline__mobil {
     min-width: 300px;
 
     .headline {
-        // height: 400px;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -58,7 +53,6 @@ img.image__headline__mobil {
             font-weight: 300;
             font-size: 180px;
             line-height: 90%;
-
             span {
                 color: #fff;
             }
@@ -72,8 +66,6 @@ img.image__headline__mobil {
         right: 0;
         object-fit: contain;
     }
-
-
 
     .card__container {
         width: 100%;
@@ -102,7 +94,6 @@ img.image__headline__mobil {
                     margin-left: 50px;
                     margin-top: 50px;
                 }
-
             }
 
             .card__content {
@@ -120,6 +111,7 @@ img.image__headline__mobil {
                 }
 
                 h2 {
+                    width: 70%;
                     margin-top: 16px;
                     font-style: normal;
                     font-weight: normal;
@@ -171,10 +163,7 @@ img.image__headline__mobil {
                         }
                     }
                 }
-
             }
-
         }
-
     }
 }
